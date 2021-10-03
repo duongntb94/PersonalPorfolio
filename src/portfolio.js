@@ -17,7 +17,7 @@ const greeting = {
     "An experienced and passionate iOS Developer 🚀 Having experience of building mobile applications with languages and tools include Swift / Objective-C / Core Data / Firebase / Jenkins / Java / SQLite / React Native"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/160qSAuK81IIvc50sMqDjGcoP4qSqtnXH/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1HWpyOalxEFcVJ7EAKj1MrJnHOnXDwu2J/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -28,7 +28,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/duongntb94/",
   gmail: "duongntb94@gmail.com",
   facebook: "https://www.facebook.com/duong.nntb",
-  medium: "https://medium.com/@/@duongntb94",
+  medium: "https://medium.com/@duongntb94",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
