@@ -17,7 +17,7 @@ const greeting = {
     "An experienced and passionate iOS Developer 🚀 Having experience of building mobile applications with languages and tools include Swift / Objective-C / Core Data / Firebase / Jenkins / Java / SQLite / React Native"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/192SR7bC6WgXjov_tEPxumyK7q98ndY-Y/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/11q5e7HgzZGT5dV8cZfgU_GGsm6TzNkKp/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -262,52 +262,40 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Build iOS Apps with SwiftUI Skill Path",
+      subtitle: "Codecademy - Certificate of Completion",
+      image: require("./assets/certs/codecademy - swiftui skillpath.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.codecademy.com/profiles/duongntb94/certificates/604255fe3d6454000dce1f3e"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Learn Intermediate Swift Course",
+      subtitle: "Codecademy - Certificate of Completion",
+      image: require("./assets/certs/codecademy - intermediate swift.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.codecademy.com/profiles/duongntb94/certificates/7ea163c1176d53d69063f6e6386100f1"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Learn Swift Course",
+      subtitle: "Codecademy - Certificate of Completion",
+      image: require("./assets/certs/codecademy - swift.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://www.codecademy.com/profiles/duongntb94/certificates/18e90daa65479a37c8f909893ada3694"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
