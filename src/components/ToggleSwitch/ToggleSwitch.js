@@ -3,7 +3,7 @@ import StyleContext from "../../contexts/StyleContext";
 import "./ToggleSwitch.scss";
 
 const ToggleSwitch = () => {
-  // const {isDark} = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   const [isChecked, setChecked] = useState(false);
   const styleContext = useContext(StyleContext);
 
@@ -11,7 +11,7 @@ const ToggleSwitch = () => {
     <label className="switch">
       <input
         type="checkbox"
-        checked={isChecked}
+        checked={isDark}
         onChange={() => {
           styleContext.changeTheme();
           setChecked(!isChecked);
