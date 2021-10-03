@@ -11,26 +11,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Duong Nguyen",
+  title: "Hi all, I'm Duong (Dan) Nguyen",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "An experienced and passionate iOS Developer 🚀 Having experience of building mobile applications with languages and tools include Swift / Objective-C / Core Data / Firebase / Jenkins / Java / SQLite / React Native"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/192SR7bC6WgXjov_tEPxumyK7q98ndY-Y/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/duongntb94",
+  linkedin: "https://www.linkedin.com/in/duongntb94/",
+  gmail: "duongntb94@gmail.com",
+  facebook: "https://www.facebook.com/duong.nntb",
+  medium: "https://medium.com/@/@duongntb94",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -40,14 +38,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Creating, programming, testing, deploying and maintaining iOS/iPadOS applications",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Implemented and deployed cross-platform mobile applications built in iOS/iPadOS platforms"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Reviewed client requirements, wireframes, and designs for technical feasibility"
+    ),
+    emoji(
+      "⚡ Ensured quality and performance of application by performing unit and automation tests"
+    ),
+    emoji(
+      "⚡ Continuous Integration / Continuous Delivery with Jenkins, Bitrise and more"
     )
   ],
 
@@ -56,56 +60,53 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "XCode",
+      icon: require("./assets/images/skills/xcode.png"),
+      url: "https://developer.apple.com/xcode/"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Swift",
+      icon: require("./assets/images/skills/swift.png"),
+      url: "https://developer.apple.com/swift/"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "SwiftUI",
+      icon: require("./assets/images/skills/swiftui.png"),
+      url: "https://developer.apple.com/xcode/swiftui/"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "React Native",
+      icon: require("./assets/images/skills/react-native.png"),
+      url: "https://reactnative.dev/"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "TypeScript",
+      icon: require("./assets/images/skills/typescript.png"),
+      url: "https://www.typescriptlang.org/"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Javascript",
+      icon: require("./assets/images/skills/javascript.png"),
+      url: "https://www.javascript.com/"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Firebase",
+      icon: require("./assets/images/skills/firebase.png"),
+      url: "https://firebase.google.com/"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Jenkins",
+      icon: require("./assets/images/skills/jenkins.png"),
+      url: "https://www.jenkins.io/",
+      height: 60,
+      width: "auto"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Bitrise",
+      icon: require("./assets/images/skills/bitrise.png"),
+      url: "https://www.bitrise.io/",
+      height: 60,
+      width: "auto"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -117,23 +118,37 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName:
+        "Maharashi International University - Fairfield, IA, United States",
+      logo: require("./assets/images/universities/maharashi.jpeg"),
+      subHeader: "Master degree of Computer Science",
+      duration: "May 2021 - December 2023",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Modern Programming Practices",
+        "Software Engineering",
+        "Machine Learning",
+        "Enterprise Architect",
+        "Big Data",
+        "Big Data Technologies"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName:
+        "HCMC University of Technology and Education - Ho Chi Minh City, Vietnam",
+      logo: require("./assets/images/universities/hcmute.png"),
+      subHeader: "Bachelor degree of Information Technology",
+      duration: "September 2012 - July 2016",
+      desc: "",
+      descBullets: [
+        "Computer Science",
+        "Data Structure and Algorithms",
+        "Databases Systems",
+        "Web Development",
+        "Object Oriented Programming",
+        "Artificial Intelligence",
+        "Information Security"
+      ]
     }
   ]
 };
@@ -144,15 +159,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "iOS App Development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "React Native App Development",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
+      Stack: "Android App Development",
       progressPercentage: "60%"
     }
   ],
@@ -165,29 +180,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Mobile Developer",
+      company: "ITADS",
+      url: "https://itads.net/",
+      companylogo: require("./assets/images/companies/itads.png"),
+      date: "Oct 2019 – April 2021",
+      desc: "Developed, launched, and maintained an enterprise mobile application which serves marketing purposes for more than 2,000 Isuzu and Mitsubishi care salespeople in Thailand",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Implemented and deployed cross-platform mobile applications built in React Native",
+        "Reviewed client requirements, wireframes, and designs for technical feasibility",
+        "Ensured quality and performance of application by performing unit and automation tests",
+        "Reduced deployment time by 95% using FastLane and Jenkins to automate deployment to Apple Store Connect and Google Play Store",
+        "Explored new technologies and shared knowledge such as Machine Learning (Core ML) and automation deployment with the development team"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Mobile Developer",
+      company: "The App Team",
+      url: "https://www.theappteam.com.au/",
+      companylogo: require("./assets/images/companies/theappteam.png"),
+      date: "July 2017 - Sep 2019",
+      desc: "Designed and developed iOS and Android mobile applications",
+      descBullets: [
+        "Worked closely with product managers and designers to define a rich mobile user experience",
+        "Determined technical feasibility of client requirements, wireframes, and designs",
+        "Reduced deployment time by 80% through automation with Fastlane and Bitrise",
+        "Researched and implemented new technologies such as push notifications, bug tracking, automatic deployment, and UI automation testing"
+      ]
     }
   ]
 };
@@ -196,8 +215,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -208,7 +227,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      projectName: "Isuzu MSC",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -230,7 +249,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -288,7 +307,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -312,7 +331,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -331,7 +350,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -344,22 +363,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "IF YOU WANT TO CONTACT ME, PLEASE USE FOLLOWING SOCIAL MEDIA",
+  number: "",
+  email_address: ""
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
