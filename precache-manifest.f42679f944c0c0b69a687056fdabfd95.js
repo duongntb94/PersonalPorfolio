@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11115b62445e1d24f283d8652527c9c6",
+    "revision": "89ab370f3ba9b39fe4d48da6fc839ae7",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.2ed47023.chunk.css"
   },
   {
-    "revision": "9437aaac6f326bf76810",
+    "revision": "c04034ac936e68cf791e",
     "url": "/static/css/main.98c190d4.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.82a11be2.chunk.js"
   },
   {
-    "revision": "9437aaac6f326bf76810",
-    "url": "/static/js/main.a6b0e0e2.chunk.js"
+    "revision": "c04034ac936e68cf791e",
+    "url": "/static/js/main.cab65038.chunk.js"
   },
   {
     "revision": "7ab5a026c6585a16b547",
@@ -52,8 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bitrise.03c81af0.png"
   },
   {
-    "revision": "47a7a717679b640ceb1b05d38c480a61",
-    "url": "/static/media/codeInLogo.47a7a717.webp"
+    "revision": "fb7e904a3c8e29466ebe37bbbbb856dc",
+    "url": "/static/media/codecademy - intermediate swift.fb7e904a.png"
+  },
+  {
+    "revision": "71aaedbc2e70271cd398ff2a5d283f04",
+    "url": "/static/media/codecademy - swift.71aaedbc.png"
+  },
+  {
+    "revision": "636f6e60e0b52a9320f82cd42b6644b9",
+    "url": "/static/media/codecademy - swiftui skillpath.636f6e60.png"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
@@ -62,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "59389695208d7454c6607bed51ed4316",
     "url": "/static/media/developerActivity.59389695.svg"
-  },
-  {
-    "revision": "e79c639294c805688be731921368c8f8",
-    "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
     "revision": "0576996e70b5d1e5f49ae2f63373fc1d",
@@ -86,10 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
-    "revision": "ee62cb58630f29a6e6201b49d4c03728",
-    "url": "/static/media/pwaLogo.ee62cb58.webp"
   },
   {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
