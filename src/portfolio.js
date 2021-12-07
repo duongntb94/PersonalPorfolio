@@ -17,7 +17,7 @@ const greeting = {
     "An experienced and passionate iOS Developer 🚀 Having experience of building mobile applications with languages and tools include Swift / Objective-C / Core Data / Firebase / Jenkins / Java / SQLite / React Native"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1HWpyOalxEFcVJ7EAKj1MrJnHOnXDwu2J/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ocYpWv6thO6l3KLvuGYg1XfBGcuCremp/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
