@@ -191,7 +191,7 @@ const workExperiences = {
         "Reviewed client requirements, wireframes, and designs for technical feasibility",
         "Ensured quality and performance of application by performing unit and automation tests",
         "Reduced deployment time by 95% using FastLane and Jenkins to automate deployment to Apple Store Connect and Google Play Store",
-        "Explored new technologies and shared knowledge such as Machine Learning (Core ML) and automation deployment with the development team"
+        "Explored new technologies and shared knowledge with the development team"
       ]
     },
     {
